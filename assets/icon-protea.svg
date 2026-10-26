@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="t"><title id="t">Protea flower icon</title>
+<g fill="#b23a0e"><path d="M32 4 L38 26 L26 26Z"/><path d="M12 12 L32 26 L22 34Z"/><path d="M52 12 L42 34 L32 26Z"/><path d="M4 34 L24 30 L26 40Z"/><path d="M60 34 L38 40 L40 30Z"/></g>
+<circle cx="32" cy="34" r="12" fill="#f2a900"/><circle cx="32" cy="34" r="5" fill="#86280a"/>
+<path d="M32 46 V62" stroke="#3f7d2a" stroke-width="4"/>
+</svg>

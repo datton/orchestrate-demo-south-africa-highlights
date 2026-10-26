@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-labelledby="t"><title id="t">Flat-topped mountain above a bay at sunset</title>
+<rect width="640" height="300" fill="#f6c27a"/><rect width="640" height="120" fill="#f2a900" opacity=".35"/>
+<circle cx="500" cy="95" r="44" fill="#ffe08a"/>
+<path d="M0 210 L90 130 L150 118 L420 118 L470 130 L560 205 L640 215 V300 H0Z" fill="#86280a"/>
+<path d="M150 118 L420 118 L440 124 L130 124Z" fill="#b23a0e"/>
+<path d="M0 235 Q160 215 320 235 T640 230 V300 H0Z" fill="#0b5d6b"/>
+<path d="M0 265 Q160 250 320 265 T640 262 V300 H0Z" fill="#074651"/>
+<path d="M60 250 h40 M220 258 h50 M430 252 h60" stroke="#fffaf2" stroke-width="3" stroke-linecap="round" opacity=".6"/>
+</svg>

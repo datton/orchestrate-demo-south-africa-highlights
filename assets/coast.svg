@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-labelledby="t"><title id="t">Rocky coastline with waves and a lighthouse</title>
+<rect width="640" height="300" fill="#bfe6ea"/><circle cx="90" cy="70" r="32" fill="#ffe08a"/>
+<path d="M0 150 H640 V300 H0Z" fill="#0b5d6b"/>
+<path d="M0 175 Q80 160 160 175 T320 175 T480 175 T640 175" fill="none" stroke="#fffaf2" stroke-width="4" opacity=".7"/>
+<path d="M0 205 Q80 190 160 205 T320 205 T480 205 T640 205" fill="none" stroke="#fffaf2" stroke-width="4" opacity=".5"/>
+<path d="M360 300 L400 190 L460 150 L520 160 L560 120 L640 130 V300Z" fill="#86280a"/>
+<path d="M470 150 L480 70 H500 L510 150Z" fill="#fffaf2" stroke="#2a1a10" stroke-width="2"/>
+<rect x="472" y="95" width="36" height="14" fill="#b23a0e"/><rect x="476" y="56" width="28" height="16" fill="#f2a900" stroke="#2a1a10" stroke-width="2"/>
+<path d="M470 56 L490 40 L510 56Z" fill="#2a1a10"/>
+</svg>

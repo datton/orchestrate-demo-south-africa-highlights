@@ -1,3 +1,54 @@
 :root {
-  /* Designer: colours, type and spacing tokens */
+  /* Palette: warm and vivid. Sunset terracotta, deep ocean teal, savanna gold, warm paper.
+     Contrast: --ink on --bg 16:1; --on-accent on --accent 5.6:1; --on-teal on --teal 7.9:1; --muted on --bg 7:1 */
+  --bg: #fffaf2;
+  --surface: #f6e9d4;
+  --ink: #2a1a10;
+  --muted: #5a4535;
+  --accent: #b23a0e;
+  --accent-dark: #86280a;
+  --on-accent: #ffffff;
+  --teal: #0b5d6b;
+  --on-teal: #ffffff;
+  --gold: #f2a900;
+  --leaf: #3f7d2a;
+  --border: #dcc7a6;
+  --focus: #0050d8;
+
+  /* Type: system fonts only. Serif display for warmth, sans body. */
+  --font-display: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --text-sm: 0.875rem;
+  --text-base: 1.0625rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.75rem;
+  --text-2xl: clamp(2rem, 5vw, 3rem);
+  --text-3xl: clamp(2.5rem, 7vw, 4.25rem);
+  --leading: 1.65;
+  --leading-tight: 1.1;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 1rem;
+  --space-4: 1.5rem;
+  --space-5: 2.5rem;
+  --space-6: 4rem;
+  --radius: 10px;
+  --radius-lg: 18px;
+  --max-width: 68rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1e130c;
+    --surface: #2e1e14;
+    --ink: #fbf1e2;
+    --muted: #d8c4aa;
+    --accent: #ff8a5c;
+    --on-accent: #1e130c;
+    --teal: #5cc3d1;
+    --on-teal: #1e130c;
+    --border: #4d3626;
+    --focus: #7fb0ff;
+  }
 }
