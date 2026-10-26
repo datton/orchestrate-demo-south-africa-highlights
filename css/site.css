@@ -10,3 +10,7 @@ main img { display: block; margin: var(--space-4, 1.5rem) 0; }
 main button { min-height: 44px; padding: var(--space-2, 0.5rem) var(--space-4, 1.5rem); background: var(--ink); color: var(--bg); border: 2px solid var(--ink); border-radius: var(--radius, 4px); font: inherit; font-weight: 700; cursor: pointer; }
 main button:hover { opacity: 0.85; }
 #region-summary { min-height: 1.6em; font-weight: 700; }
+
+main a, .site-footer a { color: var(--teal); }
+main a:hover { color: var(--accent-dark); }
+@media (prefers-color-scheme: dark) { main a:hover { color: var(--accent); } }
