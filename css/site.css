@@ -1,1 +1,12 @@
-/* Lead Dev: content styles */
+/* Lead Dev: content styles (uses tokens.css; page shell is in layout.css) */
+h1, h2, h3 { font-family: var(--font-display, inherit); line-height: 1.15; }
+h1 { font-size: var(--text-3xl, 2.5rem); margin: 0 0 var(--space-3, 1rem); }
+h2 { font-size: var(--text-xl, 1.6rem); margin: var(--space-5, 2.5rem) 0 var(--space-3, 1rem); }
+.lead { font-size: var(--text-lg, 1.25rem); max-width: 46rem; }
+p, li { max-width: 46rem; }
+main img { display: block; margin: var(--space-4, 1.5rem) 0; }
+
+.region-buttons { display: flex; flex-wrap: wrap; gap: var(--space-2, 0.5rem); }
+main button { min-height: 44px; padding: var(--space-2, 0.5rem) var(--space-4, 1.5rem); background: var(--ink); color: var(--bg); border: 2px solid var(--ink); border-radius: var(--radius, 4px); font: inherit; font-weight: 700; cursor: pointer; }
+main button:hover { opacity: 0.85; }
+#region-summary { min-height: 1.6em; font-weight: 700; }
